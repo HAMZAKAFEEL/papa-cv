@@ -1,0 +1,88 @@
+/* Reset basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 20px;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    border: 1px solid #ccc;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #000;
+}
+
+header .address, header .contact {
+    font-size: 14px;
+    color: #555;
+}
+
+header .contact span {
+    color: #000;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 18px;
+    margin: 15px 0 10px;
+    border-bottom: 2px solid #000;
+    display: inline-block;
+    padding-bottom: 3px;
+}
+
+p, ul {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 10px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+ul li strong {
+    color: #000;
+}
+
+section p {
+    font-size: 15px;
+}
+
+section.education, section.experience {
+    margin-top: 10px;
+}
+
+section.experience p {
+    margin-left: 10px;
+}
+.cv{
+    height: 60px;
+    width: 60px;
+    right: full;
+   
+    margin-top: 0;
+}
